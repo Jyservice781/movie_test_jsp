@@ -8,51 +8,65 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<div class="wrap">
+
+
+<div class="all_wrap">
     <header class="header">
-        <h1>Movie_Picture</h1>
+        <h1><a class="logo" href="#">Movie_Picture</a></h1>
 
         <p class="userChoice">
             <a href="./user/logIn.jsp">로그인</a>
             <a href="./user/register.jsp">회원가입</a>
         </p>
     </header>
-    <section class="card_wrap">
 
-<%--        card로 design 요소 줄거임 부트스트랩 사용해보기--%>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <section class="card_wrap">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 15rem; height: fit-content;margin: 2% 0; box-sizing:border-box;">
+                        <img src="./jpg/puriosa.jpg" class="card-img-top" alt="퓨리오사">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <a href="./movie/movieOne.jsp" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem; height: fit-content;margin: 2% 0; box-sizing:border-box;">
+                        <img src="./jpg/congpu_panda.jpg" class="card-img-top" alt="쿵푸팬더이미지">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <a href="./movie/movieOne.jsp" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem; height: fit-content; margin: 2% 0; box-sizing:border-box;">
+                        <img src="./jpg/puriosa.jpg" class="card-img-top" alt="퓨리오사">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <a href="./movie/movieOne.jsp" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem; height: fit-content;margin: 2% 0; box-sizing:border-box;">
+                        <img src="./jpg/congpu_panda.jpg" class="card-img-top" alt="쿵푸팬더이미지">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <a href="./movie/movieOne.jsp" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <p>copyrightⒸ20240610</p>
+        <p>address: bitcampGangnam</p>
+    </footer>
 </div>
 </body>
 </html>
