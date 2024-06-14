@@ -1,20 +1,28 @@
-.header h1{
+.header h1 {
     line-height: 40px;
 }
-.userChoice{
-    line-height: 45px;
+
+.userChoice {}
+
+{
+    width: 100%;
+    height: 80%;
+}
+section{
+    width: 100%;
+    height: 80%;
 }
 
-section{
+#section{
     display: inline-block;
     width: 50%;
     height: 40%;
-    background: rgba( 255, 255, 255, 0.9 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 25px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
     position: absolute;
     top: 50%;
@@ -22,28 +30,29 @@ section{
     transform: translate(-50%, -50%);
 }
 
-.wrap{
+.wrap {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.wrap input{}
+.wrap input {
+}
 
-.wrap>div{
+.wrap > div {
     margin-top: 10px;
 }
 
-.wrap>input.logIn_btn{
-    border:none;
+.wrap > input.logIn_btn {
+    border: none;
     text-decoration: underline;
-    color:#111;
+    color: #111;
     background: none;
     font: 15px 'arial';
 }
 
-.wrap>a{
+.wrap > a {
     margin-left: 20px;
     color: #111;
 }

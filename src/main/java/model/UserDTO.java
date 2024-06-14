@@ -1,5 +1,8 @@
 package model;
 
+import lombok.Data;
+
+@Data
 public class UserDTO {
     // id = pk
     private int id;
@@ -10,4 +13,6 @@ public class UserDTO {
     private int userRank;
     // 평점때 쓸거
     private String nickName;
+
+
 }
