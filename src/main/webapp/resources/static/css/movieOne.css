@@ -1,0 +1,63 @@
+main{
+    width: 100%;
+    height: 80vh;
+}
+
+.movieOne_wrap{
+    width: 80%;
+    height: 60%;
+    background-color: #fff;
+    color:#222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:15px;
+}
+
+.movieOne_content{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieOne_content>li>img{
+    display: inline-block;
+    width: 450px;
+    height: auto;
+
+}
+
+.movieOne_content>li{
+    width: 45%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.movieOne_content h3{
+    font-size: 1.5rem;
+}
+.movieOne_content p{
+    font: normal 1.2rem 'arial';
+}
+.movieOne_content span{
+    font: normal 1rem 'arial';
+    color:#222;
+}
+.movieOne_btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    box-sizing: border-box;
+}
+.movieOne_btn>a{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+}
